@@ -43,14 +43,49 @@
   transform: rotate(0);
 }
 
-/* header */
-
 .navbar {
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/1black_wood_-grain-texture_11-1024x647.jpg);
+  background-color: rgb(28, 21, 68);
+}
+.navbar-brand {
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+  letter-spacing: 2px;
+  opacity: .9;
+}
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 12px;
+  opacity: .5;
+  letter-spacing: 1px;
+}
+a:hover {
+  color: white;
+  opacity: .9;
 }
 
+.form-control {
+  line-height: 2;
+  opacity: .7;
+  color: white;
+}
+
+.btn {
+  margin-right: 10px;
+  /* opacity: .4; */
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1.2px;
+  color: white;
+  opacity: .9;
+  font-size: 15px;
+  background-color: rgba(106, 17, 158, 0.8);
+}
+
+/* header */
 #MemeDatabase {
-  background-image: url(https://lh3.googleusercontent.com/K-kCKvgDiZw4sZAiNkRhjYD8YX9YPhCcR6KuS_xVbqCQeeSTmvsrSlpY00NxzpvglLwOjA=s85);
+  /* background-image: url(https://lh3.googleusercontent.com/K-kCKvgDiZw4sZAiNkRhjYD8YX9YPhCcR6KuS_xVbqCQeeSTmvsrSlpY00NxzpvglLwOjA=s85); */
   height: 100%;
   background-position: center;
 }
@@ -68,16 +103,14 @@
 /* background fix */
 
 #cat-bg,  #ambg  {
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/1black_wood_-grain-texture_11-1024x647.jpg);
+  /* background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/1black_wood_-grain-texture_11-1024x647.jpg); */
   padding: 9px;
 }
 
 #mowbg {
-  
   padding: 9px;
 }
 #catBG {
-  
   padding: 9px;
 }
 #cat-bg {
@@ -85,18 +118,17 @@
 }
 
 /* Cat submit button fix */
-
 .cat-sub {
   margin-left: -15px;
 }
 
 #form-buffer {
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/1black_wood_-grain-texture_11-1024x647.jpg);
+  /* background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/1black_wood_-grain-texture_11-1024x647.jpg); */
   padding: 1rem;
 }
 
 .form1, .form2 {
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/1black_wood_-grain-texture_11-1024x647.jpg);
+  /* background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/1black_wood_-grain-texture_11-1024x647.jpg); */
 }
 
 /* animation */
@@ -157,36 +189,36 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  background-color: #000000;
+  background-color: rgb(43, 40, 109);
   line-height: 1.7;
   color: #777;
   padding: 3rem;
   box-sizing: border-box;
-  background-image: url(https://wallpapertag.com/wallpaper/full/7/2/8/118913-full-size-white-wood-background-1920x1080.jpg);
+  /* background-image: url(https://wallpapertag.com/wallpaper/full/7/2/8/118913-full-size-white-wood-background-1920x1080.jpg); */
 }
 
 .body2 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: #777;
   padding: 3rem;
   box-sizing: border-box;
-  background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  /* background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 }
 .body3 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: #777;
   padding: 3rem;
   box-sizing: border-box;
-  background-image: url("https://images.pexels.com/photos/1342460/pexels-photo-1342460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  /* background-image: url("https://images.pexels.com/photos/1342460/pexels-photo-1342460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
 }
 .body4 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: #777;
@@ -197,8 +229,8 @@ body {
   background-size: cover;
 }
 .heading-primary {
+  font-family: 'Fredoka One', cursive;
   color: #fff;
-  text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
 }
@@ -207,7 +239,7 @@ body {
   display: block;
   font-size: 6rem;
   font-weight: 400;
-  letter-spacing: 3.5rem;
+  letter-spacing: .8rem;
   animation-name: moveInLeft;
   animation-duration: .5s;
   animation-timing-function: ease-in;
@@ -219,9 +251,9 @@ body {
 
 .heading-primary--sub {
   display: block;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  letter-spacing: 1.75rem;
+  letter-spacing: 1.2rem;
   animation: moveInRight .5s ease-out;
 }
 
@@ -250,7 +282,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(44, 206, 255, 0.8), rgba(0, 37, 245, 0.8));
+  background-image: linear-gradient(to right bottom, rgba(176, 38, 255, 0.8), rgb(43, 40, 109));
   background-size: cover;
   background-position: top;
   position: relative;
@@ -276,18 +308,27 @@ body {
   text-align: center;
 }
 
+.team {
+  text-align: center;
+  width: 50;
+}
+
+.team-pic {
+  margin: auto;
+}
+
 .team-header{
   color: whitesmoke;
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/1black_wood_-grain-texture_11-1024x647.jpg);
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 1.5px;
+  /* background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/1black_wood_-grain-texture_11-1024x647.jpg); */
   padding: 9px;
 }
 
 h5{
-  color: white;
-}
-
-hr {
-  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 20px;
 }
 
 .big-links {
@@ -295,7 +336,9 @@ hr {
 }
 
 .card {
-  background-image: url(https://images.freecreatives.com/wp-content/uploads/2015/04/1black_wood_-grain-texture_11-1024x647.jpg);
+  background-color: rgb(216, 216, 216);
+  /* box-sizing: border-box;
+  border: 10px, orange; */
 }
 
 .innerS {
@@ -317,6 +360,17 @@ hr {
   position: relative;
 	width: 265px;
   height: 225px;
+ 
+}
+
+.fa-file:hover {
+  color: rgb(55, 108, 255);
+}
+.fa-linkedin:hover {
+  color: rgb(55, 108, 255);
+}
+.fa-github:hover {
+  color: rgb(55, 108, 255);
 }
 
 
@@ -342,15 +396,6 @@ hr {
 	-o-transition: all 0.3s ease-in;
 	
 }
-
-
-
-/* TEST */
-/* .team .inner-content:hover .overlay-content
-{
-	top: 0px;
-} */
-
 
 
 ul.member-social-links li
@@ -459,6 +504,6 @@ ul.member-social-links li i.fa-github
 
 @media screen and (max-width: 640px) {}
 
-a:hover{
+/* a:hover{
   background-color:#007bff;  
-}
+} */

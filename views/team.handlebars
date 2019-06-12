@@ -1,6 +1,6 @@
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
-      <a class="navbar-brand text-white" href="/">Meme Database</a>
+<body class="body3">
+    <nav class="navbar navbar-expand-lg fixed-top ">
+      <a class="navbar-brand" href="/">Meme Database</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icon-bar top-bar"></span>
@@ -10,52 +10,78 @@
       <div class="collapse navbar-collapse " id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active ">
-            <a class="nav-link text-white " href="/popularMemes">Popular Memes</a>
+            <a class="nav-link" href="/popularMemes">Popular Memes</a>
           </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="/categories">Categories</a>
+          <a class="nav-link" href="/categories">Catagories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="/allMemes">All Memes</a>
+          <a class="nav-link" href="/allMemes">All Memes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="/addAMeme">Add A Meme</a>
+          <a class="nav-link" href="/addAMeme">Add A Meme</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="/team">Team</a>
+          <a class="nav-link" href="/team">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="/memeWars" target="blank_">Meme War</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white " href="/searchResults">Search</a>
-        </li>          
+          <a class="nav-link" href="/memeWars" target="blank_">Meme War</a>
+        </li>      
       </ul>
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" id="meme-search" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-primary mb-2 my-sm-0" type="submit" id="search-btn">Search</button>
+        <button class="btn mb-2 my-sm-0" type="submit" id="search-btn">Search</button>
       </form>
        </div>
   </nav>
   <br><br><br><br>
 
-
-
-
-
-
-
 	<section class="team section-padding" id="team">
 		<div class="animation" data-animation="fadeIn">
 			<div class="team-header">
-				<h1>Our Team</h1>
+				<h1>Meet our team...</h1>
 
 			</div>
 		</div>
-
+<div class="row">
+				<div class="team-pic" data-animation="zoomIn">
+					<li>
+						<div class="col-12 inner-content">
+							<img
+								src="https://media.licdn.com/dms/image/C5603AQF5_gJPXhyJmQ/profile-displayphoto-shrink_800_800/0?e=1564012800&v=beta&t=bm9H_sOnpkUBjlCofOsZmkXo-MevaBC1aJeAdViy6yQ">
+							{{!-- Overlay-Content --}}
+							<div class="overlay-content white">
+								<p class="name primary bold">Jackson Stein</p>
+								<p class="position secondary-sky-blue bold">Back End</p>
+								<ul class="member-social-links">
+									<li><a href="#"><i class="far fa-file"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/jackson-stein/" target="_blank"><i
+												class="fab fa-linkedin"></i></a></li>
+									<li><a href="https://github.com/jsstein1995" target="_blank"><i class="fab fa-github"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</div>
+				<div class="col-12 hide">
+					<br>
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Jackson Stein - Back End</h5>
+							<hr>
+							<p class="card-text big-links">
+									<a href="#"><i class="far fa-file"></i></a>
+									<a href="https://www.linkedin.com/in/jackson-stein/" target="_blank"><i
+												class="fab fa-linkedin"></i></a>
+									<a href="https://github.com/jsstein1995" target="_blank"><i class="fab fa-github"></i></a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="animation" data-animation="zoomIn">
+				<div class="team-pic" data-animation="zoomIn">
 					<li>
 						<div class="col-12 inner-content">
 							<img
@@ -91,7 +117,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="animation" data-animation="zoomIn">
+				<div class="team-pic" data-animation="zoomIn">
 					<li>
 						<div class="col-12 inner-content">
 							<img
@@ -127,7 +153,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="animation" data-animation="zoomIn">
+				<div class="team-pic" data-animation="zoomIn">
 					<li>
 						<div class="col-12 inner-content">
 							<img
@@ -163,43 +189,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="animation" data-animation="zoomIn">
-					<li>
-						<div class="col-12 inner-content">
-							<img
-								src="https://media.licdn.com/dms/image/C5603AQF5_gJPXhyJmQ/profile-displayphoto-shrink_800_800/0?e=1564012800&v=beta&t=bm9H_sOnpkUBjlCofOsZmkXo-MevaBC1aJeAdViy6yQ">
-							{{!-- Overlay-Content --}}
-							<div class="overlay-content white">
-								<p class="name primary bold">Jackson Stein</p>
-								<p class="position secondary-sky-blue bold">Back End</p>
-								<ul class="member-social-links">
-									<li><a href="#"><i class="far fa-file"></i></a></li>
-									<li><a href="https://www.linkedin.com/in/jackson-stein/" target="_blank"><i
-												class="fab fa-linkedin"></i></a></li>
-									<li><a href="https://github.com/jsstein1995" target="_blank"><i class="fab fa-github"></i></a></li>
-								</ul>
-							</div>
-						</div>
-					</li>
-				</div>
-				<div class="col-12 hide">
-					<br>
-					<div class="card">
-						<div class="card-body">
-							<h5 class="card-title">Jackson Stein - Back End</h5>
-							<hr>
-							<p class="card-text big-links">
-									<a href="#"><i class="far fa-file"></i></a>
-									<a href="https://www.linkedin.com/in/jackson-stein/" target="_blank"><i
-												class="fab fa-linkedin"></i></a>
-									<a href="https://github.com/jsstein1995" target="_blank"><i class="fab fa-github"></i></a>
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="animation" data-animation="zoomIn">
+				<div class="team-pic" data-animation="zoomIn">
 					<li>
 						<div class="col-12 inner-content">
 							<img
