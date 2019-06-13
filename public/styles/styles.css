@@ -51,13 +51,12 @@
   font-family: 'Fredoka One', cursive;
   font-size: 30px;
   letter-spacing: 2px;
-  opacity: .9;
 }
 .nav-link {
   font-family: 'Open Sans', sans-serif;
   color: white;
-  font-size: 12px;
-  opacity: .5;
+  font-size: 14px;
+  opacity: .7;
   letter-spacing: 1px;
 }
 a:hover {
@@ -191,7 +190,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  background-color: rgb(43, 40, 109);
+  background-color: rgb(17, 17, 17);
   line-height: 1.7;
   color: #777;
   padding: 3rem;
@@ -336,14 +335,15 @@ h5{
 }
 
 .card {
-  background-color: rgb(216, 216, 216);
-  /* box-sizing: border-box;
-  border: 10px, orange; */
+  /* background-color: rgb(216, 216, 216); */
+  box-sizing: border-box;
+  border: 10px, orange;
+  
 }
 
 .innerS {
-  margin: 30px;
-  font-size: 20px;
+  margin: 0px;
+  font-size: 10px;
 }
 
 .ADS {
@@ -355,6 +355,15 @@ h5{
   background-repeat: no-repeat;
 }
 
+#team-card {
+  background-color: rgb(43, 40, 109);
+  border: none;
+}
+.card-title {
+  color: white;
+  opacity: .9;
+}
+ 
 .team .inner-content
 {
   position: relative;
